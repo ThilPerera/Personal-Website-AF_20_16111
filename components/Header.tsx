@@ -23,7 +23,7 @@ const Header = () => {
                 key={link.hash}
                 initial={{ y: -100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}>
-                  <Link className='flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 dark: hover:text-gray-300 transition '
+                  <Link className='flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 dark:hover:text-white transition '
                   href={link.hash}>{link.name}</Link>
                 </motion.li>
               ))
