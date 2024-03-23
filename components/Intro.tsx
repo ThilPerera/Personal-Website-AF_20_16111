@@ -50,14 +50,14 @@ const Intro = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}>
             <a
-              className="px-4 inline-block py-2 w-full sm:w-fit rounded-full dark:bg-white dark:hover:bg-slate-200 dark:text-purple-600 mt-3 dark:border-purple-600 border-2 bg-[#121212] hover:bg-slate-800 mr-4 my-2"
+              className="px-4 inline-block py-2 w-full sm:w-fit rounded-full dark:bg-white dark:hover:bg-slate-200 dark:text-purple-600 mt-3 dark:border-purple-600 border-2 bg-[#121212] hover:bg-slate-800 mr-4 my-2 active:scale-105 cursor-pointer " href="/CV.pdf"
             >
               Download CV
             </a>
         
             <Link
               href="/#contact"
-              className="dark:bg-[#121212] dark:hover:bg-slate-800 px-4 inline-block py-2 w-full sm:w-fit rounded-full border-purple-600 border-2 bg-white dark:text-white text-black hover:bg-slate-200"
+              className="dark:bg-[#121212] dark:hover:bg-slate-800 px-4 inline-block py-2 w-full sm:w-fit rounded-full border-purple-600 border-2 bg-white dark:text-white text-black hover:bg-slate-200 active:scale-105 cursor-pointer"
             >
 
                Contact Me 
@@ -65,12 +65,21 @@ const Intro = () => {
             </Link>
             <div className="inline-block justify-center">
             <a
-              className="px-2 flex items-center justify-center py-2 w-full sm:w-fit rounded-full bg-gray-400 dark:text-purple-600 mt-3 border-gray-400 border-2  hover:border-purple-600 m-4 my-2"
+              className="px-2 flex items-center justify-center py-2 w-full sm:w-fit rounded-full bg-gray-400 dark:text-purple-600 mt-3 border-gray-400 border-2  hover:border-purple-600 m-4 my-2 active:scale-105 cursor-pointer" href="www.linkedin.com/in/thilhara-senadi-832941230" 
             >
               <BsLinkedin/>
+
+            </a>
+            </div>
+            <div className="inline-block justify-center">
+            <a className="px-2 flex items-center justify-center py-2 w-full sm:w-fit rounded-full bg-gray-400 dark:text-purple-600 mt-3 border-gray-400 border-2  hover:border-purple-600 active:scale-105 cursor-pointer" href="https://github.com/ThilPerera">
+              
+            
+              <FaGithubSquare/>
             </a>
             </div>
             
+    
 
         
           </motion.div>
