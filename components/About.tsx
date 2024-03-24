@@ -3,6 +3,7 @@
 import React from "react";
 import SectionHeading from "./Section-heading";
 import { motion } from "framer-motion";
+import SectionDivider from "./Section-divider";
 
 
 export default function About() {
@@ -15,7 +16,8 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
-    >
+    > 
+        
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
       I'm a third-year undergraduate at University of Sri Jayawardenapura, pursuing a{" "}
@@ -24,7 +26,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not solving design problems</span>, I enjoy reading, going for hikes, doing Origami,Paper Quillig and making clay crafts.I also enjoy{" "}
+        <span className="italic">When I'm not solving design problems</span>, I enjoy reading, going for hikes, doing Origami,Paper Quillig and making clay crafts. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">Human Personalities and Buddhist Philosophy</span>. I'm also
