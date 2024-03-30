@@ -30,13 +30,15 @@ export const links = [
   export const projectsData = [
     {
       title: "BookU",
+      link: "https://thilhara.notion.site/BookU-d5d6e7f5b52c4c739ba85278a0708cd1?pvs=74",
       description:
         "This project is brought out as a personal project in which I took the responsibility of both the dreamer and the architect as the sole UX/UI designer.",
       tags: ["UX", "UI", "Figma", "Research",],
       imageUrl: BookU,
     },
     {
-      title: "rmtDev",
+      title: "CINEapp",
+      link: "https://thilhara.notion.site/BookU-d5d6e7f5b52c4c739ba85278a0708cd1?pvs=74",
       description:
         "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
       tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
