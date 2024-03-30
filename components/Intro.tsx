@@ -9,7 +9,8 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-16 scroll-mt-500"
+    id="home">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div
           
