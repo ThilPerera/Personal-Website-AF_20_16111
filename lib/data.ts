@@ -41,8 +41,25 @@ export const links = [
       link: "https://thilhara.notion.site/BookU-d5d6e7f5b52c4c739ba85278a0708cd1?pvs=74",
       description:
         "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-      tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      tags: ["React", "TypeScript", "Firebase", "Firestore"],
       imageUrl: BookU,
     },
   
+  ] as const;
+
+  export const skillsData = [
+    "Figma",
+    "UX Research",
+    "Wireframing",
+    "Prototyping",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Git",
+    "Tailwind",
+    "Framer Motion",
   ] as const;
