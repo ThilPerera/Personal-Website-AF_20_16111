@@ -2,8 +2,10 @@ import About from "@/components/About";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import Projects from "@/components/Projects";
+import Achievements  from "@/components/Achievements";
 import SectionDivider from "@/components/Section-divider";
 import { Skill } from "@/components/Skill";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -17,6 +19,11 @@ export default function Home() {
       <SectionDivider>
       </SectionDivider>
       <Skill></Skill>
+      <SectionDivider></SectionDivider>
+      <Achievements></Achievements>
+      <SectionDivider>
+      </SectionDivider>
+      <Contact></Contact>
     </main>
   );
 }
