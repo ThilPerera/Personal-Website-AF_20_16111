@@ -57,7 +57,7 @@ const Intro = () => {
             </a>
         
             <Link
-              href="/#contact"
+              href="mailto:thilharasenadi@gmail.com"
               className="dark:bg-[#121212] dark:hover:bg-slate-800 px-4 inline-block py-2 w-full sm:w-fit rounded-full border-purple-600 border-2 bg-white dark:text-white text-black hover:bg-slate-200 active:scale-105 cursor-pointer"
             >
 
@@ -66,7 +66,7 @@ const Intro = () => {
             </Link>
             <div className="inline-block justify-center">
             <a
-              className="px-2 flex items-center justify-center py-2 w-full sm:w-fit rounded-full bg-gray-400 dark:text-purple-600 mt-3 border-gray-400 border-2  hover:border-purple-600 m-4 my-2 active:scale-105 cursor-pointer" href="www.linkedin.com/in/thilhara-senadi-832941230" 
+              className="px-2 flex items-center justify-center py-2 w-full sm:w-fit rounded-full bg-gray-400 dark:text-purple-600 mt-3 border-gray-400 border-2  hover:border-purple-600 m-4 my-2 active:scale-105 cursor-pointer" href="https://www.linkedin.com/in/thilhara-senadi-832941230" 
             >
               <BsLinkedin/>
 
