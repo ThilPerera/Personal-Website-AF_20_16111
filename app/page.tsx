@@ -6,6 +6,7 @@ import Achievements  from "@/components/Achievements";
 import SectionDivider from "@/components/Section-divider";
 import { Skill } from "@/components/Skill";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <SectionDivider>
       </SectionDivider>
       <Contact></Contact>
-    </main>
+      <Footer></Footer>  
+      </main>
   );
 }
